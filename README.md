@@ -48,9 +48,9 @@ Edit `conf.ini` and add your keys/models, e.g.:
 [LLM]
 OPENAI_API_KEY = your_openai_api_key
 OPENAI_MODEL = gpt-4o-mini
-
+```
 or
-
+```ini
 [LLM]
 USE_OLLAMA = 0
 OLLAMA_MODEL = llama3.1
@@ -74,3 +74,13 @@ python -m uvicorn Main:app --reload --port 8000
 
 ### 💡 Inspiration
 This project is designed to make **your static documents conversational** — so you can query knowledge instantly with the power of **RAG + Generative AI**.
+
+---
+
+## 🔮 Future Improvements
+- Support for more file types (Excel, PPTX) and also for webpages (Links, html)
+- Persistent database-backed vector storage
+- Streaming responses from LLM
+- User accounts and role-based access
+
+
