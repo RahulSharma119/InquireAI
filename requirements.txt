@@ -1,0 +1,10 @@
+uuid
+typing
+numpy
+fastapi
+pydantic
+pypdf
+python-docx
+sentence_transformers
+openai
+uvicorn
